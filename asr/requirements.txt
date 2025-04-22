@@ -1,0 +1,9 @@
+# For use by docker
+
+fastapi[standard]==0.115.12
+uvicorn==0.34.1
+requests
+torch
+torchvision
+torchaudio
+transformers

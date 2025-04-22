@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-input {
+    margin-bottom: 30px
+}
+
+.results {
+    padding: 0 1rem
+}
+
+.result-cell {
+    border-bottom: 1px solid grey
+}
+
+.pagination {
+    margin-top: 2rem
+}
+
+.pagination button {
+    margin-right: 1rem
+}

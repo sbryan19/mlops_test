@@ -1,0 +1,15 @@
+services:
+  search-ui:
+    build:
+      context: ./
+    container_name: search-ui
+    ports:
+      - "3000:3000"
+    environment:
+      REACT_APP_ELASTICSEARCH_HOST: "http://localhost:9200"
+      REACT_APP_ELASTICSEARCH_INDEX: "cv-transcriptions"
+      CHOKIDAR_USEPOLLING: true
+    volumes:
+      - .:/app
+      - /app/node_modules
+

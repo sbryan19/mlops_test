@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn==0.34.1
+requests
+torch
+torchvision
+torchaudio
+transformers
+pandas
+tqdm
+elasticsearch<7.14.0
+numpy<2

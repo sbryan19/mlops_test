@@ -1,0 +1,11 @@
+# Virtual environment
+test_venv
+
+*/__pycache__
+
+# Task 2 (ASR)
+asr/common_voice
+
+# Task 3 (Search UI)
+search-ui/node_modules
+search-ui/package-lock.json
